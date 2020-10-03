@@ -1,2 +1,2 @@
 FROM tomcat:8
-COPY target/*.war/usr/local/tomcat/webapps && cd opt/
+COPY target/*.war/usr/local/tomcat/webapps
